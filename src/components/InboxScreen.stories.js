@@ -4,7 +4,6 @@ import { action } from "@storybook/addon-actions";
 import { PureInboxScreen } from "./InboxScreen";
 import * as TaskListStories from "./TaskList.stories";
 
-// A super-simple mock of a redux store
 const store = {
 	getState: () => {
 		return {
