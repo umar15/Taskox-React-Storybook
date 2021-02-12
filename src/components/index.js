@@ -30,7 +30,6 @@ export function PureInboxScreen({ error }) {
 }
 
 PureInboxScreen.propTypes = {
-	/** The error message */
 	error: PropTypes.string,
 };
 
